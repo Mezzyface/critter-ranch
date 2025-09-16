@@ -20,9 +20,9 @@ func _ready():
 	
 	# Test 1: Display all activities
 	print("Available Activities:")
-	for activity in ActivityType.Activity.values():
-		var display_name = ActivityType.get_display_name(activity)
-		var key = ActivityType.get_key(activity)
+	for i in ActivityType.Activity.values():
+		var display_name = ActivityType.get_display_name(i)
+		var key = ActivityType.get_key(i)
 		var cost = GameConstants.ACTIVITY_COSTS.get(key, 0)
 		print("- %s: %dg" % [display_name, cost])
 	
@@ -61,3 +61,5 @@ func _ready():
 	var initial_age = test_creature.age_days
 	test_creature = ActivityProcessor.process_activity(test_creature, ActivityType.Activity.REST)
 	print("Age before rest: %d, after: %d (should be same)" % [initial_age, test_creature.age_days])
+	
+	print("\n=== Test Complete ===")

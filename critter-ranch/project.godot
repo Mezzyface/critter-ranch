@@ -18,9 +18,8 @@ config/icon="res://icon.svg"
 [autoload]
 
 SignalBus="*res://systems/SignalBus.gd"
-TimeManager="*res://systems/TimeManager.gd"
-EconomyManager="*res://systems/EconomyManager.gd"
 DayManager="*res://systems/DayManager.gd"
+EconomyManager="*res://systems/EconomyManager.gd"
 ActivityProcessor="*res://systems/ActivityProcessor.gd"
 
 [display]
