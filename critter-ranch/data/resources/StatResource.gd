@@ -8,12 +8,12 @@ class_name StatResource
 @export var decay_rate: float = 10.0  # Per day without care
 @export var icon: Texture2D
 
-func duplicate_stat() -> StatResource:
-    var new_stat = StatResource.new()
-    new_stat.stat_name = stat_name
-    new_stat.current_value = current_value
-    new_stat.max_value = max_value
-    new_stat.min_value = min_value
-    new_stat.decay_rate = decay_rate
-    new_stat.icon = icon
-    return new_stat
+func duplicate_stat() -> Resource:  # Changed from StatResource to Resource
+	var new_stat = StatResource.new()
+	new_stat.stat_name = stat_name
+	new_stat.current_value = current_value
+	new_stat.max_value = max_value
+	new_stat.min_value = min_value
+	new_stat.decay_rate = decay_rate
+	new_stat.icon = icon
+	return new_stat
