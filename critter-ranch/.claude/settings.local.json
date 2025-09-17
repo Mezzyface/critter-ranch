@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tree:*)",
+      "Bash(mv:*)",
+      "Bash(for dir in */)",
+      "Bash(do if [[ \"$dir\" =~ [A-Z] ]])",
+      "Bash(fi)",
+      "Bash(done)",
+      "Bash(find:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
