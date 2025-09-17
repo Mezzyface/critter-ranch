@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ccxwi0frhl7h6"
-path="res://.godot/imported/Lizard_Hit.png-26a644f63c03940ee3268a449c9cd66f.ctex"
+uid="uid://c5i16a3tv8a25"
+path="res://.godot/imported/lizard_hit.png-ea3b5b3023dc13a83ccac0fc50d1d82e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Lizard/Lizard_Hit.png"
-dest_files=["res://.godot/imported/Lizard_Hit.png-26a644f63c03940ee3268a449c9cd66f.ctex"]
+source_file="res://assets/sprites/creatures/lizard/lizard_hit.png"
+dest_files=["res://.godot/imported/lizard_hit.png-ea3b5b3023dc13a83ccac0fc50d1d82e.ctex"]
 
 [params]
 

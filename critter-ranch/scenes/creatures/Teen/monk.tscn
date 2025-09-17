@@ -1,0 +1,61 @@
+[gd_scene load_steps=9 format=3 uid="uid://mtpsbknfbivb"]
+
+[ext_resource type="Texture2D" uid="uid://j7ho6c4dnjan" path="res://assets/sprites/creatures/monk/idle.png" id="1_nvcdl"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3dnqv"]
+atlas = ExtResource("1_nvcdl")
+region = Rect2(0, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pvq1d"]
+atlas = ExtResource("1_nvcdl")
+region = Rect2(192, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vlo5w"]
+atlas = ExtResource("1_nvcdl")
+region = Rect2(384, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qgpwr"]
+atlas = ExtResource("1_nvcdl")
+region = Rect2(576, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ctujy"]
+atlas = ExtResource("1_nvcdl")
+region = Rect2(768, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0hn08"]
+atlas = ExtResource("1_nvcdl")
+region = Rect2(960, 0, 192, 192)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_db3lt"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3dnqv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pvq1d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vlo5w")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qgpwr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ctujy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0hn08")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[node name="Monk" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -37)
+sprite_frames = SubResource("SpriteFrames_db3lt")
+animation = &"idle"
+autoplay = "idle"

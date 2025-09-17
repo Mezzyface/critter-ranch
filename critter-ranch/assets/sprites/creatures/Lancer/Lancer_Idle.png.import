@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cv2eikdfe6oe3"
-path="res://.godot/imported/Lancer_Idle.png-fe5bffd8c2b68324e9b3a52e03d65227.ctex"
+uid="uid://c12dodqxuntjs"
+path="res://.godot/imported/lancer_idle.png-352fd24f2a062a81dbcda014acd14149.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Lancer/Lancer_Idle.png"
-dest_files=["res://.godot/imported/Lancer_Idle.png-fe5bffd8c2b68324e9b3a52e03d65227.ctex"]
+source_file="res://assets/sprites/creatures/lancer/lancer_idle.png"
+dest_files=["res://.godot/imported/lancer_idle.png-352fd24f2a062a81dbcda014acd14149.ctex"]
 
 [params]
 

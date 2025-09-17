@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://74s7o5pkfkps"]
+
+[ext_resource type="Script" uid="uid://c4c41brtjlmxe" path="res://scripts/main.gd" id="1_o5qli"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_o5qli")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(4, 4)
+
+[node name="SpawnPosition" type="Marker2D" parent="."]

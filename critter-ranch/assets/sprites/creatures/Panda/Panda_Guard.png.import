@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://clfogog0yf0tm"
-path="res://.godot/imported/Panda_Guard.png-75aa03f7211d4e090c4cb8d4a520ba07.ctex"
+uid="uid://bhlt0nm8jbhh7"
+path="res://.godot/imported/panda_guard.png-f26bddde9a4489e2245271106fedc397.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Panda/Panda_Guard.png"
-dest_files=["res://.godot/imported/Panda_Guard.png-75aa03f7211d4e090c4cb8d4a520ba07.ctex"]
+source_file="res://assets/sprites/creatures/panda/panda_guard.png"
+dest_files=["res://.godot/imported/panda_guard.png-f26bddde9a4489e2245271106fedc397.ctex"]
 
 [params]
 

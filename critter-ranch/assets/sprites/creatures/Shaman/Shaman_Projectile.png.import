@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b1cxso410sv0i"
-path="res://.godot/imported/Shaman_Projectile.png-ecb41eb36b354e642ba6a3ffd469ea01.ctex"
+uid="uid://pmmu8020eel2"
+path="res://.godot/imported/shaman_projectile.png-21138b8c0d2e83fac1580ad2a594cec3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Shaman/Shaman_Projectile.png"
-dest_files=["res://.godot/imported/Shaman_Projectile.png-ecb41eb36b354e642ba6a3ffd469ea01.ctex"]
+source_file="res://assets/sprites/creatures/shaman/shaman_projectile.png"
+dest_files=["res://.godot/imported/shaman_projectile.png-21138b8c0d2e83fac1580ad2a594cec3.ctex"]
 
 [params]
 

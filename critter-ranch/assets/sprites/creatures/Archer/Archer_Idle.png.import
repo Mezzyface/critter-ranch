@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://busvp6oip71cx"
-path="res://.godot/imported/Archer_Idle.png-8f44793897f3e5fd49f33d7ae825134d.ctex"
+uid="uid://ci5akd5j7gq0p"
+path="res://.godot/imported/archer_idle.png-d9edbbe1b68d5dc08f7ff5a9a900a874.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Archer/Archer_Idle.png"
-dest_files=["res://.godot/imported/Archer_Idle.png-8f44793897f3e5fd49f33d7ae825134d.ctex"]
+source_file="res://assets/sprites/creatures/archer/archer_idle.png"
+dest_files=["res://.godot/imported/archer_idle.png-d9edbbe1b68d5dc08f7ff5a9a900a874.ctex"]
 
 [params]
 

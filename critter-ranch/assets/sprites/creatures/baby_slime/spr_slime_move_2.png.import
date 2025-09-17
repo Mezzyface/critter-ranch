@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c6q7l3qqfj4ws"
-path="res://.godot/imported/spr_slime_move_2.png-3dc8fa3b0cc8ece8831f4ac362a49e90.ctex"
+path="res://.godot/imported/spr_slime_move_2.png-d7e937e24c4b71853dd3fba56cde4566.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Baby Slime/spr_slime_move_2.png"
-dest_files=["res://.godot/imported/spr_slime_move_2.png-3dc8fa3b0cc8ece8831f4ac362a49e90.ctex"]
+source_file="res://assets/sprites/creatures/baby_slime/spr_slime_move_2.png"
+dest_files=["res://.godot/imported/spr_slime_move_2.png-d7e937e24c4b71853dd3fba56cde4566.ctex"]
 
 [params]
 

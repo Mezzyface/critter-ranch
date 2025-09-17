@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://s7lauqtmvyld"
-path="res://.godot/imported/Idle.png-e9754cfe6d12ef4eea384cddc5c3252c.ctex"
+uid="uid://j7ho6c4dnjan"
+path="res://.godot/imported/idle.png-3e5beaab4edef7d1644cfbdf2cd3562c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Monk/Idle.png"
-dest_files=["res://.godot/imported/Idle.png-e9754cfe6d12ef4eea384cddc5c3252c.ctex"]
+source_file="res://assets/sprites/creatures/monk/idle.png"
+dest_files=["res://.godot/imported/idle.png-3e5beaab4edef7d1644cfbdf2cd3562c.ctex"]
 
 [params]
 

@@ -1,0 +1,42 @@
+[gd_scene load_steps=9 format=3 uid="uid://bp41vtegp0i2f"]
+
+[ext_resource type="Script" uid="uid://du7qkkimk2vhm" path="res://scripts/Creature.gd" id="1_jyhi8"]
+[ext_resource type="Texture2D" uid="uid://pifk863yaqte" path="res://assets/sprites/creatures/blob/blob_spritesheet.png" id="1_l2k0c"]
+[ext_resource type="PackedScene" uid="uid://dhorpmpvccpnb" path="res://scenes/creatures/Kid/kid_skeleton.tscn" id="2_qitl8"]
+[ext_resource type="PackedScene" uid="uid://kmq7ofdtrxjq" path="res://scenes/creatures/Kid/baby_bear.tscn" id="3_qitl8"]
+[ext_resource type="PackedScene" uid="uid://rvtt5rqumj3k" path="res://scenes/creatures/Kid/kid_knight.tscn" id="4_3r8gu"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iw05l"]
+atlas = ExtResource("1_l2k0c")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jyhi8"]
+atlas = ExtResource("1_l2k0c")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_qitl8"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iw05l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jyhi8")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[node name="Baby" type="CharacterBody2D"]
+script = ExtResource("1_jyhi8")
+evolution_low = ExtResource("2_qitl8")
+evolution_medium = ExtResource("3_qitl8")
+evolution_high = ExtResource("4_3r8gu")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -7)
+sprite_frames = SubResource("SpriteFrames_qitl8")
+animation = &"idle"
+autoplay = "idle"
+frame_progress = 0.27846065

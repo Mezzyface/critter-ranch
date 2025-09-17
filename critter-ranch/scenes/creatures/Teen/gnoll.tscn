@@ -1,0 +1,62 @@
+[gd_scene load_steps=9 format=3 uid="uid://bh37lyludxmec"]
+
+[ext_resource type="Texture2D" uid="uid://4ceppx2ewx46" path="res://assets/sprites/creatures/gnoll/gnoll_idle.png" id="1_ur7tr"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tt0bp"]
+atlas = ExtResource("1_ur7tr")
+region = Rect2(0, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kkblw"]
+atlas = ExtResource("1_ur7tr")
+region = Rect2(192, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p4qwh"]
+atlas = ExtResource("1_ur7tr")
+region = Rect2(384, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5575e"]
+atlas = ExtResource("1_ur7tr")
+region = Rect2(576, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y7y4w"]
+atlas = ExtResource("1_ur7tr")
+region = Rect2(768, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wdyn4"]
+atlas = ExtResource("1_ur7tr")
+region = Rect2(960, 0, 192, 192)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_dvvu3"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tt0bp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kkblw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p4qwh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5575e")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y7y4w")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wdyn4")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[node name="Gnoll" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -35)
+sprite_frames = SubResource("SpriteFrames_dvvu3")
+animation = &"idle"
+autoplay = "idle"
+frame_progress = 0.9970572

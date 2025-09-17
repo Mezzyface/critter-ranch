@@ -1,0 +1,74 @@
+[gd_scene load_steps=11 format=3 uid="uid://dbdfegp3ywa0p"]
+
+[ext_resource type="Texture2D" uid="uid://dc1pykc60w5aa" path="res://assets/sprites/creatures/skull/skull_idle.png" id="1_hovyq"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1ik4l"]
+atlas = ExtResource("1_hovyq")
+region = Rect2(0, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0kcje"]
+atlas = ExtResource("1_hovyq")
+region = Rect2(192, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_flwqo"]
+atlas = ExtResource("1_hovyq")
+region = Rect2(384, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pylfk"]
+atlas = ExtResource("1_hovyq")
+region = Rect2(576, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pcp0m"]
+atlas = ExtResource("1_hovyq")
+region = Rect2(768, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uj8xk"]
+atlas = ExtResource("1_hovyq")
+region = Rect2(960, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3w8rd"]
+atlas = ExtResource("1_hovyq")
+region = Rect2(1152, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gvuuu"]
+atlas = ExtResource("1_hovyq")
+region = Rect2(1344, 0, 192, 192)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_luxve"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1ik4l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0kcje")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_flwqo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pylfk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pcp0m")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uj8xk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3w8rd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gvuuu")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[node name="Skeleton" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -28)
+sprite_frames = SubResource("SpriteFrames_luxve")
+animation = &"idle"

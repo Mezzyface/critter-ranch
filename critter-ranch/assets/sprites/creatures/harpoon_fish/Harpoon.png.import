@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bgsh66b2thtyf"
-path="res://.godot/imported/Harpoon.png-fced1326ca26e396b6f780c9012cb6f1.ctex"
+path="res://.godot/imported/harpoon.png-76aa26d14ae31886806ba8df162809f0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Harpoon Fish/Harpoon.png"
-dest_files=["res://.godot/imported/Harpoon.png-fced1326ca26e396b6f780c9012cb6f1.ctex"]
+source_file="res://assets/sprites/creatures/harpoon_fish/harpoon.png"
+dest_files=["res://.godot/imported/harpoon.png-76aa26d14ae31886806ba8df162809f0.ctex"]
 
 [params]
 

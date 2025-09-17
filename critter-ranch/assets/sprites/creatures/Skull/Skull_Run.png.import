@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cx6lpjs0gltb4"
-path="res://.godot/imported/Skull_Run.png-ab94b5b498a75a259b771e182532444f.ctex"
+uid="uid://bjh20h54kwtwy"
+path="res://.godot/imported/skull_run.png-38703659fb0008efdc31a6a8c1de822e.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Skull/Skull_Run.png"
-dest_files=["res://.godot/imported/Skull_Run.png-ab94b5b498a75a259b771e182532444f.ctex"]
+source_file="res://assets/sprites/creatures/skull/skull_run.png"
+dest_files=["res://.godot/imported/skull_run.png-38703659fb0008efdc31a6a8c1de822e.ctex"]
 
 [params]
 

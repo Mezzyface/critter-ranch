@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cnta5ipxim16e"
-path="res://.godot/imported/Gnome_Run.png-0233f36e7b22b57115f5f5db71229360.ctex"
+uid="uid://c1y1rpsontv7k"
+path="res://.godot/imported/gnome_run.png-d7f7862e8f073360a9e63e7fe90722be.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Gnome/Gnome_Run.png"
-dest_files=["res://.godot/imported/Gnome_Run.png-0233f36e7b22b57115f5f5db71229360.ctex"]
+source_file="res://assets/sprites/creatures/gnome/gnome_run.png"
+dest_files=["res://.godot/imported/gnome_run.png-d7f7862e8f073360a9e63e7fe90722be.ctex"]
 
 [params]
 

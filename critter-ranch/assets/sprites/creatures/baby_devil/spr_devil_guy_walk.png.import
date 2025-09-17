@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c0tbjnr86m133"
-path="res://.godot/imported/spr_devil_guy_walk.png-795179a09dc8fc9abd5563d4e8323754.ctex"
+path="res://.godot/imported/spr_devil_guy_walk.png-d03a1bfd583d31e1e7944fdc10586837.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Baby Devil/spr_devil_guy_walk.png"
-dest_files=["res://.godot/imported/spr_devil_guy_walk.png-795179a09dc8fc9abd5563d4e8323754.ctex"]
+source_file="res://assets/sprites/creatures/baby_devil/spr_devil_guy_walk.png"
+dest_files=["res://.godot/imported/spr_devil_guy_walk.png-d03a1bfd583d31e1e7944fdc10586837.ctex"]
 
 [params]
 

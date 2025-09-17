@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b6rw4risbf3vm"
-path="res://.godot/imported/Lancer_Right_Defence.png-982f83d7f026c2f47a7517b1a7fa2012.ctex"
+uid="uid://xus82ebncvwb"
+path="res://.godot/imported/lancer_right_defence.png-e96a32ddc3fd821fa7203a38907b0ea0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Lancer/Lancer_Right_Defence.png"
-dest_files=["res://.godot/imported/Lancer_Right_Defence.png-982f83d7f026c2f47a7517b1a7fa2012.ctex"]
+source_file="res://assets/sprites/creatures/lancer/lancer_right_defence.png"
+dest_files=["res://.godot/imported/lancer_right_defence.png-e96a32ddc3fd821fa7203a38907b0ea0.ctex"]
 
 [params]
 

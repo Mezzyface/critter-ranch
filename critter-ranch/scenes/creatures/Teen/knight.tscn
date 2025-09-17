@@ -1,0 +1,74 @@
+[gd_scene load_steps=11 format=3 uid="uid://bji8dnlaw0kus"]
+
+[ext_resource type="Texture2D" uid="uid://bsdetcov4wsfu" path="res://assets/sprites/creatures/warrior/warrior_idle.png" id="1_50gr1"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_i8gbh"]
+atlas = ExtResource("1_50gr1")
+region = Rect2(0, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_n52ae"]
+atlas = ExtResource("1_50gr1")
+region = Rect2(192, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o2fi6"]
+atlas = ExtResource("1_50gr1")
+region = Rect2(384, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kmmxf"]
+atlas = ExtResource("1_50gr1")
+region = Rect2(576, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r7pdj"]
+atlas = ExtResource("1_50gr1")
+region = Rect2(768, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fc0dk"]
+atlas = ExtResource("1_50gr1")
+region = Rect2(960, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s0fbi"]
+atlas = ExtResource("1_50gr1")
+region = Rect2(1152, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_q1wj5"]
+atlas = ExtResource("1_50gr1")
+region = Rect2(1344, 0, 192, 192)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ejvf6"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_i8gbh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_n52ae")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o2fi6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kmmxf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r7pdj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fc0dk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s0fbi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_q1wj5")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[node name="Knight" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -37)
+sprite_frames = SubResource("SpriteFrames_ejvf6")
+animation = &"idle"

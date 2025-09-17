@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://copk41i24wun6"
-path="res://.godot/imported/Minotaur_Walk.png-fdf5d4aea05c25d930a10728bd6cef7e.ctex"
+uid="uid://cpwxuuhpebkke"
+path="res://.godot/imported/minotaur_walk.png-db0d0db1813ad4bf391437b52044b82f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Minotaur/Minotaur_Walk.png"
-dest_files=["res://.godot/imported/Minotaur_Walk.png-fdf5d4aea05c25d930a10728bd6cef7e.ctex"]
+source_file="res://assets/sprites/creatures/minotaur/minotaur_walk.png"
+dest_files=["res://.godot/imported/minotaur_walk.png-db0d0db1813ad4bf391437b52044b82f.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bu6h1wupu8r5d"
-path="res://.godot/imported/Shaman_Explosion.png-6ca946a6d3fca1e5350a2202e2a2db78.ctex"
+uid="uid://v8jdgu1xcage"
+path="res://.godot/imported/shaman_explosion.png-b43a687f57a6c67a0a5ad96d52bba2d0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Shaman/Shaman_Explosion.png"
-dest_files=["res://.godot/imported/Shaman_Explosion.png-6ca946a6d3fca1e5350a2202e2a2db78.ctex"]
+source_file="res://assets/sprites/creatures/shaman/shaman_explosion.png"
+dest_files=["res://.godot/imported/shaman_explosion.png-b43a687f57a6c67a0a5ad96d52bba2d0.ctex"]
 
 [params]
 

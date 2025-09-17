@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bnmeh3nu3ds48"
-path="res://.godot/imported/Turtle_Guard_Out.png-19bae1c9b0e0fd797860b1c22425aea7.ctex"
+uid="uid://ddrn7pdkkryv2"
+path="res://.godot/imported/turtle_guard_out.png-8c88aeb9ec299fc418d38ad01838b2f2.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Turtle/Turtle_Guard_Out.png"
-dest_files=["res://.godot/imported/Turtle_Guard_Out.png-19bae1c9b0e0fd797860b1c22425aea7.ctex"]
+source_file="res://assets/sprites/creatures/turtle/turtle_guard_out.png"
+dest_files=["res://.godot/imported/turtle_guard_out.png-8c88aeb9ec299fc418d38ad01838b2f2.ctex"]
 
 [params]
 

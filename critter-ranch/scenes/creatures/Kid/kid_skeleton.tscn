@@ -1,0 +1,70 @@
+[gd_scene load_steps=13 format=3 uid="uid://dhorpmpvccpnb"]
+
+[ext_resource type="Script" uid="uid://du7qkkimk2vhm" path="res://scripts/Creature.gd" id="1_jv7lo"]
+[ext_resource type="PackedScene" uid="uid://dbdfegp3ywa0p" path="res://scenes/creatures/Teen/skeleton.tscn" id="2_2lb0f"]
+[ext_resource type="PackedScene" uid="uid://bq2t37ae33du4" path="res://scenes/creatures/Teen/skeleton_rouge.tscn" id="3_betf5"]
+[ext_resource type="PackedScene" uid="uid://prg5xh442enw" path="res://scenes/creatures/Teen/lich.tscn" id="4_6rrwk"]
+[ext_resource type="Texture2D" uid="uid://coyigoen6cewx" path="res://assets/sprites/creatures/baby_skeleton/skeleton-idle.png" id="5_y4d1r"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ekxts"]
+atlas = ExtResource("5_y4d1r")
+region = Rect2(0, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nmhsf"]
+atlas = ExtResource("5_y4d1r")
+region = Rect2(48, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oo6nf"]
+atlas = ExtResource("5_y4d1r")
+region = Rect2(96, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7p8bd"]
+atlas = ExtResource("5_y4d1r")
+region = Rect2(144, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jky45"]
+atlas = ExtResource("5_y4d1r")
+region = Rect2(192, 0, 48, 48)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_a2rf4"]
+atlas = ExtResource("5_y4d1r")
+region = Rect2(240, 0, 48, 48)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_bmp52"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ekxts")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nmhsf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oo6nf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7p8bd")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jky45")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_a2rf4")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[node name="KidSkeleton" type="CharacterBody2D"]
+script = ExtResource("1_jv7lo")
+evolution_low = ExtResource("2_2lb0f")
+evolution_medium = ExtResource("3_betf5")
+evolution_high = ExtResource("4_6rrwk")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -24)
+sprite_frames = SubResource("SpriteFrames_bmp52")
+animation = &"idle"
+autoplay = "idle"
+frame_progress = 0.6736782

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://hctpi8y6i5pq"
-path="res://.godot/imported/Spider_Idle.png-2b64f758c00189726fe47b35f40c3976.ctex"
+uid="uid://brdp2ey15jgh4"
+path="res://.godot/imported/spider_idle.png-fb13a95e6ed560842e1a4ae81f9965a5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Spider/Spider_Idle.png"
-dest_files=["res://.godot/imported/Spider_Idle.png-2b64f758c00189726fe47b35f40c3976.ctex"]
+source_file="res://assets/sprites/creatures/spider/spider_idle.png"
+dest_files=["res://.godot/imported/spider_idle.png-fb13a95e6ed560842e1a4ae81f9965a5.ctex"]
 
 [params]
 

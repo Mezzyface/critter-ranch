@@ -1,0 +1,33 @@
+[gd_scene load_steps=6 format=3 uid="uid://74s7o5pkfkps"]
+
+[ext_resource type="Script" uid="uid://c4c41brtjlmxe" path="res://scripts/main.gd" id="1_o5qli"]
+[ext_resource type="PackedScene" uid="uid://dhorpmpvccpnb" path="res://scenes/creatures/Kid/kid_skeleton.tscn" id="2_jyhfs"]
+[ext_resource type="Script" uid="uid://n4mb6q0ovmqs" path="res://systems/HatchManager.gd" id="2_sugp2"]
+[ext_resource type="Script" uid="uid://dly8r3i8fxpv4" path="res://systems/EvolutionManager.gd" id="3_jyhfs"]
+[ext_resource type="PackedScene" uid="uid://v20bsvisrsve" path="res://scenes/creatures/poof.tscn" id="5_tbgi4"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_o5qli")
+evolved_scene = ExtResource("2_jyhfs")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(4, 4)
+
+[node name="SpawnPosition" type="Marker2D" parent="."]
+
+[node name="HatchManager" type="Node" parent="."]
+script = ExtResource("2_sugp2")
+
+[node name="EvolutionManager" type="Node" parent="."]
+script = ExtResource("3_jyhfs")
+evolution_particles = false
+spin_during_evolution = false
+poof_scene = ExtResource("5_tbgi4")
+
+[node name="UI" type="CanvasLayer" parent="."]
+
+[node name="EvoLabel" type="Label" parent="UI"]
+offset_left = 20.0
+offset_top = 20.0
+offset_right = 61.0
+offset_bottom = 43.0

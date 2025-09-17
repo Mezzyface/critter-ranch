@@ -1,0 +1,73 @@
+[gd_scene load_steps=11 format=3 uid="uid://v20bsvisrsve"]
+
+[ext_resource type="Texture2D" uid="uid://c3p317hhnhqn" path="res://assets/sprites/ui/poof.png" id="1_1rwld"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_67nu8"]
+atlas = ExtResource("1_1rwld")
+region = Rect2(0, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bityy"]
+atlas = ExtResource("1_1rwld")
+region = Rect2(96, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bcnsp"]
+atlas = ExtResource("1_1rwld")
+region = Rect2(192, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_juod2"]
+atlas = ExtResource("1_1rwld")
+region = Rect2(288, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mk0g0"]
+atlas = ExtResource("1_1rwld")
+region = Rect2(384, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mx147"]
+atlas = ExtResource("1_1rwld")
+region = Rect2(480, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_owig4"]
+atlas = ExtResource("1_1rwld")
+region = Rect2(576, 0, 96, 96)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_10606"]
+atlas = ExtResource("1_1rwld")
+region = Rect2(672, 0, 96, 96)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_inw21"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_67nu8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bityy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bcnsp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_juod2")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mk0g0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mx147")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_owig4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_10606")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="Poof" type="Node2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -34)
+sprite_frames = SubResource("SpriteFrames_inw21")

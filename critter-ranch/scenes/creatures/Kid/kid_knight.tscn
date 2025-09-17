@@ -1,0 +1,49 @@
+[gd_scene load_steps=10 format=3 uid="uid://rvtt5rqumj3k"]
+
+[ext_resource type="Script" uid="uid://du7qkkimk2vhm" path="res://scripts/Creature.gd" id="1_oph1v"]
+[ext_resource type="PackedScene" uid="uid://bji8dnlaw0kus" path="res://scenes/creatures/Teen/knight.tscn" id="2_f3xey"]
+[ext_resource type="PackedScene" uid="uid://mtpsbknfbivb" path="res://scenes/creatures/Teen/monk.tscn" id="3_8og52"]
+[ext_resource type="PackedScene" uid="uid://dtihxtd10as4j" path="res://scenes/creatures/Teen/lancer.tscn" id="4_4vf11"]
+[ext_resource type="Texture2D" uid="uid://bb28jqbv70emy" path="res://assets/sprites/creatures/baby_knight/knight_and_dummy_idle_spritesheet.png" id="5_wkely"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4fl06"]
+atlas = ExtResource("5_wkely")
+region = Rect2(0, 0, 40, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_b5gy0"]
+atlas = ExtResource("5_wkely")
+region = Rect2(0, 0, 40, 40)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_14jiq"]
+atlas = ExtResource("5_wkely")
+region = Rect2(0, 80, 40, 40)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ydu4i"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4fl06")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_b5gy0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_14jiq")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 3.0
+}]
+
+[node name="KidKnight" type="CharacterBody2D"]
+script = ExtResource("1_oph1v")
+evolution_low = ExtResource("2_f3xey")
+evolution_medium = ExtResource("3_8og52")
+evolution_high = ExtResource("4_4vf11")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(5, -18)
+sprite_frames = SubResource("SpriteFrames_ydu4i")
+animation = &"idle"
+autoplay = "idle"
+frame_progress = 0.37783402

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://u7xukwj32brc"
-path="res://.godot/imported/Thief_Idle.png-90b354b64181c877d949c9f18d69fb73.ctex"
+uid="uid://5wv31scauw62"
+path="res://.godot/imported/thief_idle.png-48ca407e6a389c37141a5e44ace4dbf1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Thief/Thief_Idle.png"
-dest_files=["res://.godot/imported/Thief_Idle.png-90b354b64181c877d949c9f18d69fb73.ctex"]
+source_file="res://assets/sprites/creatures/thief/thief_idle.png"
+dest_files=["res://.godot/imported/thief_idle.png-48ca407e6a389c37141a5e44ace4dbf1.ctex"]
 
 [params]
 

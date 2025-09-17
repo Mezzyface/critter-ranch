@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b1q18duglhgnw"
-path="res://.godot/imported/Panda_Idle.png-3b257d2e5dea3b9f688499073ddb2530.ctex"
+uid="uid://bt3ph1xsbjx1e"
+path="res://.godot/imported/panda_idle.png-024739b65c025145d967ea7bb2f9a320.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Panda/Panda_Idle.png"
-dest_files=["res://.godot/imported/Panda_Idle.png-3b257d2e5dea3b9f688499073ddb2530.ctex"]
+source_file="res://assets/sprites/creatures/panda/panda_idle.png"
+dest_files=["res://.godot/imported/panda_idle.png-024739b65c025145d967ea7bb2f9a320.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b2kri18rnly2w"
-path="res://.godot/imported/Skull_Attack.png-14c652eec81870a8072d342e4455b882.ctex"
+uid="uid://3ysom4cnaji1"
+path="res://.godot/imported/skull_attack.png-95a930b966ef2ba056b1a1e434cdf9d7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Skull/Skull_Attack.png"
-dest_files=["res://.godot/imported/Skull_Attack.png-14c652eec81870a8072d342e4455b882.ctex"]
+source_file="res://assets/sprites/creatures/skull/skull_attack.png"
+dest_files=["res://.godot/imported/skull_attack.png-95a930b966ef2ba056b1a1e434cdf9d7.ctex"]
 
 [params]
 

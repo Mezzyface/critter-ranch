@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b665jjrdemgmm"
-path="res://.godot/imported/Arrow.png-71b1ee6c291e9b66c10e4e439544ff27.ctex"
+uid="uid://c6m1mggqvns0b"
+path="res://.godot/imported/arrow.png-d00ed56324427ad7c9084e073d1f2411.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Archer/Arrow.png"
-dest_files=["res://.godot/imported/Arrow.png-71b1ee6c291e9b66c10e4e439544ff27.ctex"]
+source_file="res://assets/sprites/creatures/archer/arrow.png"
+dest_files=["res://.godot/imported/arrow.png-d00ed56324427ad7c9084e073d1f2411.ctex"]
 
 [params]
 

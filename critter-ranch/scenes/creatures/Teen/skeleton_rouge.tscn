@@ -1,0 +1,60 @@
+[gd_scene load_steps=9 format=3 uid="uid://bq2t37ae33du4"]
+
+[ext_resource type="Texture2D" uid="uid://5wv31scauw62" path="res://assets/sprites/creatures/thief/thief_idle.png" id="1_s1lo0"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_bwvb0"]
+atlas = ExtResource("1_s1lo0")
+region = Rect2(0, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_5t2kp"]
+atlas = ExtResource("1_s1lo0")
+region = Rect2(192, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_1wowe"]
+atlas = ExtResource("1_s1lo0")
+region = Rect2(384, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hkvfi"]
+atlas = ExtResource("1_s1lo0")
+region = Rect2(576, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uyf4d"]
+atlas = ExtResource("1_s1lo0")
+region = Rect2(768, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wsrix"]
+atlas = ExtResource("1_s1lo0")
+region = Rect2(960, 0, 192, 192)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_21jjc"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_bwvb0")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_5t2kp")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_1wowe")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hkvfi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uyf4d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wsrix")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[node name="skeleton_rouge" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -30)
+sprite_frames = SubResource("SpriteFrames_21jjc")
+animation = &"idle"

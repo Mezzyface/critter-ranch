@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://f0upb00omkif"
-path="res://.godot/imported/Shaman_Run.png-b9ce3dda2a7594b052198c3943201377.ctex"
+uid="uid://cmsab5feyxyu8"
+path="res://.godot/imported/shaman_run.png-db9621d5b840384aaf353c1b4b16f75f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Shaman/Shaman_Run.png"
-dest_files=["res://.godot/imported/Shaman_Run.png-b9ce3dda2a7594b052198c3943201377.ctex"]
+source_file="res://assets/sprites/creatures/shaman/shaman_run.png"
+dest_files=["res://.godot/imported/shaman_run.png-db9621d5b840384aaf353c1b4b16f75f.ctex"]
 
 [params]
 

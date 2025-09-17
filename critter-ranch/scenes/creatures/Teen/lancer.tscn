@@ -1,0 +1,103 @@
+[gd_scene load_steps=15 format=3 uid="uid://dtihxtd10as4j"]
+
+[ext_resource type="Texture2D" uid="uid://c12dodqxuntjs" path="res://assets/sprites/creatures/lancer/lancer_idle.png" id="1_kwfvj"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rqyw5"]
+atlas = ExtResource("1_kwfvj")
+region = Rect2(0, 0, 320, 320)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_46npx"]
+atlas = ExtResource("1_kwfvj")
+region = Rect2(320, 0, 320, 320)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2b3cm"]
+atlas = ExtResource("1_kwfvj")
+region = Rect2(640, 0, 320, 320)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lygty"]
+atlas = ExtResource("1_kwfvj")
+region = Rect2(960, 0, 320, 320)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_76hbo"]
+atlas = ExtResource("1_kwfvj")
+region = Rect2(1280, 0, 320, 320)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lqe46"]
+atlas = ExtResource("1_kwfvj")
+region = Rect2(1600, 0, 320, 320)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e6qyr"]
+atlas = ExtResource("1_kwfvj")
+region = Rect2(1920, 0, 320, 320)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3spkf"]
+atlas = ExtResource("1_kwfvj")
+region = Rect2(2240, 0, 320, 320)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pwrmk"]
+atlas = ExtResource("1_kwfvj")
+region = Rect2(2560, 0, 320, 320)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3sa4d"]
+atlas = ExtResource("1_kwfvj")
+region = Rect2(2880, 0, 320, 320)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8qg80"]
+atlas = ExtResource("1_kwfvj")
+region = Rect2(3200, 0, 320, 320)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ss5e0"]
+atlas = ExtResource("1_kwfvj")
+region = Rect2(3520, 0, 320, 320)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_1tsci"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rqyw5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_46npx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2b3cm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lygty")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_76hbo")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lqe46")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e6qyr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3spkf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pwrmk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3sa4d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8qg80")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ss5e0")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[node name="Lancer" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -33)
+sprite_frames = SubResource("SpriteFrames_1tsci")
+animation = &"idle"
+autoplay = "idle"

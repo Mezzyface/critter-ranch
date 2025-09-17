@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dusipul7atus1"
-path="res://.godot/imported/Bear_Run.png-e74e973d3068b22f24812021e7ed1b55.ctex"
+uid="uid://bley53a1tff5u"
+path="res://.godot/imported/bear_run.png-70402e055eec4958bdc478190f76b3f4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Bear/Bear_Run.png"
-dest_files=["res://.godot/imported/Bear_Run.png-e74e973d3068b22f24812021e7ed1b55.ctex"]
+source_file="res://assets/sprites/creatures/bear/bear_run.png"
+dest_files=["res://.godot/imported/bear_run.png-70402e055eec4958bdc478190f76b3f4.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dyrhp46606fcs"
-path="res://.godot/imported/Boat_Idle.png-1eee527c70f28439810f0d157dd39d40.ctex"
+uid="uid://c7qmaegsns6yq"
+path="res://.godot/imported/boat_idle.png-0d022936d4b84955f4642dde26794957.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Boat/Boat_Idle.png"
-dest_files=["res://.godot/imported/Boat_Idle.png-1eee527c70f28439810f0d157dd39d40.ctex"]
+source_file="res://assets/sprites/creatures/boat/boat_idle.png"
+dest_files=["res://.godot/imported/boat_idle.png-0d022936d4b84955f4642dde26794957.ctex"]
 
 [params]
 

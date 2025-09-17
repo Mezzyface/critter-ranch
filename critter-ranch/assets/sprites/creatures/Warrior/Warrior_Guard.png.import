@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d06o03etewmsy"
-path="res://.godot/imported/Warrior_Guard.png-9bcb83637b5a0cd8bfc054653db4c266.ctex"
+uid="uid://c3pvdre3m5d0q"
+path="res://.godot/imported/warrior_guard.png-2dc9f54177f60040a4d62acc39c5b900.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Warrior/Warrior_Guard.png"
-dest_files=["res://.godot/imported/Warrior_Guard.png-9bcb83637b5a0cd8bfc054653db4c266.ctex"]
+source_file="res://assets/sprites/creatures/warrior/warrior_guard.png"
+dest_files=["res://.godot/imported/warrior_guard.png-2dc9f54177f60040a4d62acc39c5b900.ctex"]
 
 [params]
 

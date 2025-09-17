@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://djjrilwudgtft"
-path="res://.godot/imported/Skull_Guard.png-c1a26bbaf77c200ecad92557cf8034a7.ctex"
+uid="uid://tt2yaya10hcs"
+path="res://.godot/imported/skull_guard.png-647ccd42c70856da3a144f07ee7d0197.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Skull/Skull_Guard.png"
-dest_files=["res://.godot/imported/Skull_Guard.png-c1a26bbaf77c200ecad92557cf8034a7.ctex"]
+source_file="res://assets/sprites/creatures/skull/skull_guard.png"
+dest_files=["res://.godot/imported/skull_guard.png-647ccd42c70856da3a144f07ee7d0197.ctex"]
 
 [params]
 

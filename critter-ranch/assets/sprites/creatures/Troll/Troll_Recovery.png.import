@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://duv1ltmiqxdlk"
-path="res://.godot/imported/Troll_Recovery.png-8c4ab594c5f4197b310f6fb6178ad07d.ctex"
+uid="uid://clme72n2fxj1d"
+path="res://.godot/imported/troll_recovery.png-013188ab40e645340941ef863f07d7df.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Troll/Troll_Recovery.png"
-dest_files=["res://.godot/imported/Troll_Recovery.png-8c4ab594c5f4197b310f6fb6178ad07d.ctex"]
+source_file="res://assets/sprites/creatures/troll/troll_recovery.png"
+dest_files=["res://.godot/imported/troll_recovery.png-013188ab40e645340941ef863f07d7df.ctex"]
 
 [params]
 

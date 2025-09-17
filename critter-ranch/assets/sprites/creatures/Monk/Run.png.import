@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://jl5fe7qsrdy7"
-path="res://.godot/imported/Run.png-d934368f9a0bd92502a8cff54e28c87d.ctex"
+uid="uid://b0uagpy3th784"
+path="res://.godot/imported/run.png-79809e3260037dafc9db50521b8694bd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Monk/Run.png"
-dest_files=["res://.godot/imported/Run.png-d934368f9a0bd92502a8cff54e28c87d.ctex"]
+source_file="res://assets/sprites/creatures/monk/run.png"
+dest_files=["res://.godot/imported/run.png-79809e3260037dafc9db50521b8694bd.ctex"]
 
 [params]
 

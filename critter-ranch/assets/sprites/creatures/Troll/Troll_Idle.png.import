@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bsiwystr0423f"
-path="res://.godot/imported/Troll_Idle.png-10136c2521fae3594d00b3a9b0caa23a.ctex"
+uid="uid://cwvtnsq8f6pyw"
+path="res://.godot/imported/troll_idle.png-6a3f6bb426b7c9e9bfeb6ae90718d78a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Troll/Troll_Idle.png"
-dest_files=["res://.godot/imported/Troll_Idle.png-10136c2521fae3594d00b3a9b0caa23a.ctex"]
+source_file="res://assets/sprites/creatures/troll/troll_idle.png"
+dest_files=["res://.godot/imported/troll_idle.png-6a3f6bb426b7c9e9bfeb6ae90718d78a.ctex"]
 
 [params]
 

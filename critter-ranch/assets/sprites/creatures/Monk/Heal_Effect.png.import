@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d0df3womuf0vv"
-path="res://.godot/imported/Heal_Effect.png-ca09da1be82e7b90c496db3c7b94bb81.ctex"
+uid="uid://cgo0tluxbmvwy"
+path="res://.godot/imported/heal_effect.png-150b2547a523846d367b583d6cb319e7.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Monk/Heal_Effect.png"
-dest_files=["res://.godot/imported/Heal_Effect.png-ca09da1be82e7b90c496db3c7b94bb81.ctex"]
+source_file="res://assets/sprites/creatures/monk/heal_effect.png"
+dest_files=["res://.godot/imported/heal_effect.png-150b2547a523846d367b583d6cb319e7.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://na8vyqph1pjk"
-path="res://.godot/imported/Gnome_Idle.png-1b6c67b2267b4676df2a27e130c2bf0e.ctex"
+uid="uid://b6agp6gi2m21y"
+path="res://.godot/imported/gnome_idle.png-57baafeda6f2e8e4db431cff7cf860a3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Gnome/Gnome_Idle.png"
-dest_files=["res://.godot/imported/Gnome_Idle.png-1b6c67b2267b4676df2a27e130c2bf0e.ctex"]
+source_file="res://assets/sprites/creatures/gnome/gnome_idle.png"
+dest_files=["res://.godot/imported/gnome_idle.png-57baafeda6f2e8e4db431cff7cf860a3.ctex"]
 
 [params]
 

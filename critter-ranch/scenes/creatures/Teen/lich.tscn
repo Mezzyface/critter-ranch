@@ -1,0 +1,75 @@
+[gd_scene load_steps=11 format=3 uid="uid://prg5xh442enw"]
+
+[ext_resource type="Texture2D" uid="uid://ccl385lxerwep" path="res://assets/sprites/creatures/shaman/shaman_idle.png" id="1_rave7"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nmyxl"]
+atlas = ExtResource("1_rave7")
+region = Rect2(0, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xodol"]
+atlas = ExtResource("1_rave7")
+region = Rect2(192, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_wyxok"]
+atlas = ExtResource("1_rave7")
+region = Rect2(384, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_e2ve5"]
+atlas = ExtResource("1_rave7")
+region = Rect2(576, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w67ce"]
+atlas = ExtResource("1_rave7")
+region = Rect2(768, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f5l8n"]
+atlas = ExtResource("1_rave7")
+region = Rect2(960, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ycnnh"]
+atlas = ExtResource("1_rave7")
+region = Rect2(1152, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_cdi8x"]
+atlas = ExtResource("1_rave7")
+region = Rect2(1344, 0, 192, 192)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_fhr35"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nmyxl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xodol")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_wyxok")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_e2ve5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w67ce")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f5l8n")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ycnnh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_cdi8x")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[node name="Lich" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -34)
+sprite_frames = SubResource("SpriteFrames_fhr35")
+animation = &"idle"
+autoplay = "idle"

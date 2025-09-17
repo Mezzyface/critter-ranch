@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c3puqnwkvbh1l"
-path="res://.godot/imported/Bear_Idle.png-aee8db6906dadb59ad26d231fa878add.ctex"
+uid="uid://ctfvkyjkjb68d"
+path="res://.godot/imported/bear_idle.png-95c1d0e3e6dbfcd651bec5c3ad6c26ba.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Bear/Bear_Idle.png"
-dest_files=["res://.godot/imported/Bear_Idle.png-aee8db6906dadb59ad26d231fa878add.ctex"]
+source_file="res://assets/sprites/creatures/bear/bear_idle.png"
+dest_files=["res://.godot/imported/bear_idle.png-95c1d0e3e6dbfcd651bec5c3ad6c26ba.ctex"]
 
 [params]
 

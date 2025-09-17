@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c5d8yls6gj1gy"
-path="res://.godot/imported/Bear_Attack.png-f9fde0957eb7207d9f0adb6c73d5ef0d.ctex"
+uid="uid://8qa088jret21"
+path="res://.godot/imported/bear_attack.png-1ec0b59b6ee4ac49a9f403549e3e911b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Bear/Bear_Attack.png"
-dest_files=["res://.godot/imported/Bear_Attack.png-f9fde0957eb7207d9f0adb6c73d5ef0d.ctex"]
+source_file="res://assets/sprites/creatures/bear/bear_attack.png"
+dest_files=["res://.godot/imported/bear_attack.png-1ec0b59b6ee4ac49a9f403549e3e911b.ctex"]
 
 [params]
 

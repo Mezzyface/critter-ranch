@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bvct5cvmrwf5p"
-path="res://.godot/imported/Minotaur_Guard.png-8dc6262b2b694f0ff7b35613c772e3a9.ctex"
+uid="uid://br6i2o4gkmp38"
+path="res://.godot/imported/minotaur_guard.png-cbe49b14a251b8b7231414199de4856c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Minotaur/Minotaur_Guard.png"
-dest_files=["res://.godot/imported/Minotaur_Guard.png-8dc6262b2b694f0ff7b35613c772e3a9.ctex"]
+source_file="res://assets/sprites/creatures/minotaur/minotaur_guard.png"
+dest_files=["res://.godot/imported/minotaur_guard.png-cbe49b14a251b8b7231414199de4856c.ctex"]
 
 [params]
 

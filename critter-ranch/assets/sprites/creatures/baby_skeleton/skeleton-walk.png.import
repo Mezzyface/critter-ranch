@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://2oiyfnllu7l8"
-path="res://.godot/imported/skeleton-walk.png-7a4c8dc6c09b54efd457919aeb3be2e5.ctex"
+path="res://.godot/imported/skeleton-walk.png-1fea6b44eb4d9960b48b2fca1846fe5f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Baby Skeleton/skeleton-walk.png"
-dest_files=["res://.godot/imported/skeleton-walk.png-7a4c8dc6c09b54efd457919aeb3be2e5.ctex"]
+source_file="res://assets/sprites/creatures/baby_skeleton/skeleton-walk.png"
+dest_files=["res://.godot/imported/skeleton-walk.png-1fea6b44eb4d9960b48b2fca1846fe5f.ctex"]
 
 [params]
 

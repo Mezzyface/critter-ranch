@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://clb42vptvcgmx"
-path="res://.godot/imported/Gnoll_Idle.png-afc32a8c469243d7861fdf2a6b2f581d.ctex"
+uid="uid://4ceppx2ewx46"
+path="res://.godot/imported/gnoll_idle.png-98456a2cd9f42faf2dea2b5a30b2dd98.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Gnoll/Gnoll_Idle.png"
-dest_files=["res://.godot/imported/Gnoll_Idle.png-afc32a8c469243d7861fdf2a6b2f581d.ctex"]
+source_file="res://assets/sprites/creatures/gnoll/gnoll_idle.png"
+dest_files=["res://.godot/imported/gnoll_idle.png-98456a2cd9f42faf2dea2b5a30b2dd98.ctex"]
 
 [params]
 

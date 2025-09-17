@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dwivkstpuox2o"
-path="res://.godot/imported/Spider_Attack.png-8143d72de594645b6f838ab5a7e3f47f.ctex"
+uid="uid://c422ki4x7xea2"
+path="res://.godot/imported/spider_attack.png-ce28378a39426e7b2cbdec9a944542f1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Spider/Spider_Attack.png"
-dest_files=["res://.godot/imported/Spider_Attack.png-8143d72de594645b6f838ab5a7e3f47f.ctex"]
+source_file="res://assets/sprites/creatures/spider/spider_attack.png"
+dest_files=["res://.godot/imported/spider_attack.png-ce28378a39426e7b2cbdec9a944542f1.ctex"]
 
 [params]
 

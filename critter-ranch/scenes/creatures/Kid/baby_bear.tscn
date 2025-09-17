@@ -1,0 +1,42 @@
+[gd_scene load_steps=9 format=3 uid="uid://kmq7ofdtrxjq"]
+
+[ext_resource type="Script" uid="uid://du7qkkimk2vhm" path="res://scripts/Creature.gd" id="1_yevpa"]
+[ext_resource type="PackedScene" uid="uid://b8t4ldp37epp6" path="res://scenes/creatures/Teen/bear.tscn" id="2_734mn"]
+[ext_resource type="PackedScene" uid="uid://bh37lyludxmec" path="res://scenes/creatures/Teen/gnoll.tscn" id="3_pgwyi"]
+[ext_resource type="PackedScene" uid="uid://b42c6l70jvmq0" path="res://scenes/creatures/Teen/minotaur.tscn" id="4_h5axu"]
+[ext_resource type="Texture2D" uid="uid://dbr6ursjooehg" path="res://assets/sprites/creatures/baby_bear/little-bear-idle.png" id="5_8faug"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_48610"]
+atlas = ExtResource("5_8faug")
+region = Rect2(0, 0, 32, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_anuvy"]
+atlas = ExtResource("5_8faug")
+region = Rect2(32, 0, 32, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_fbesq"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_48610")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_anuvy")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[node name="BabyBear" type="CharacterBody2D"]
+script = ExtResource("1_yevpa")
+evolution_low = ExtResource("2_734mn")
+evolution_medium = ExtResource("3_pgwyi")
+evolution_high = ExtResource("4_h5axu")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -16)
+sprite_frames = SubResource("SpriteFrames_fbesq")
+animation = &"idle"
+autoplay = "idle"
+frame_progress = 0.20097809

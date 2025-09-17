@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cu7o2h6fx7qvp"
-path="res://.godot/imported/Troll_Attack.png-f407cdf73216fee0d82b90352a15633a.ctex"
+uid="uid://ucc2a7qdhdvo"
+path="res://.godot/imported/troll_attack.png-7b3ec89cca99751f54e6b0c11b46c7c4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Troll/Troll_Attack.png"
-dest_files=["res://.godot/imported/Troll_Attack.png-f407cdf73216fee0d82b90352a15633a.ctex"]
+source_file="res://assets/sprites/creatures/troll/troll_attack.png"
+dest_files=["res://.godot/imported/troll_attack.png-7b3ec89cca99751f54e6b0c11b46c7c4.ctex"]
 
 [params]
 

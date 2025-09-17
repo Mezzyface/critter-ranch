@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c6ydxhjytr4qw"
-path="res://.godot/imported/Lizard_Run.png-d5697a56b88c6e4ca8a45ac8695cd2c8.ctex"
+uid="uid://bjn26yc6mgxax"
+path="res://.godot/imported/lizard_run.png-dc7bfe6d1d0e950e436263cb1a2df7dd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Lizard/Lizard_Run.png"
-dest_files=["res://.godot/imported/Lizard_Run.png-d5697a56b88c6e4ca8a45ac8695cd2c8.ctex"]
+source_file="res://assets/sprites/creatures/lizard/lizard_run.png"
+dest_files=["res://.godot/imported/lizard_run.png-dc7bfe6d1d0e950e436263cb1a2df7dd.ctex"]
 
 [params]
 

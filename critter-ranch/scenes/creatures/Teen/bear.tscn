@@ -1,0 +1,76 @@
+[gd_scene load_steps=11 format=3 uid="uid://b8t4ldp37epp6"]
+
+[ext_resource type="Texture2D" uid="uid://ctfvkyjkjb68d" path="res://assets/sprites/creatures/bear/bear_idle.png" id="1_uwpri"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6g6id"]
+atlas = ExtResource("1_uwpri")
+region = Rect2(0, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o1u41"]
+atlas = ExtResource("1_uwpri")
+region = Rect2(256, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_hnu02"]
+atlas = ExtResource("1_uwpri")
+region = Rect2(512, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ss7ug"]
+atlas = ExtResource("1_uwpri")
+region = Rect2(768, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_42tvn"]
+atlas = ExtResource("1_uwpri")
+region = Rect2(1024, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_gtbhm"]
+atlas = ExtResource("1_uwpri")
+region = Rect2(1280, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_tvj1d"]
+atlas = ExtResource("1_uwpri")
+region = Rect2(1536, 0, 256, 256)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sxqjf"]
+atlas = ExtResource("1_uwpri")
+region = Rect2(1792, 0, 256, 256)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_vp7wy"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6g6id")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o1u41")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_hnu02")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ss7ug")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_42tvn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_gtbhm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_tvj1d")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sxqjf")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}]
+
+[node name="Bear" type="CharacterBody2D"]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(0, -40)
+sprite_frames = SubResource("SpriteFrames_vp7wy")
+animation = &"idle"
+autoplay = "idle"
+frame_progress = 0.2672194

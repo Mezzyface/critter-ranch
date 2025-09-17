@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://ciqxxmsakmowm"
-path="res://.godot/imported/House3.png-a839b17603e5bad0130fba41a34e85e9.ctex"
+path="res://.godot/imported/house3.png-f64d5aa3b7dff51f54f8c485143dfdb4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/Buildings/Red Buildings/House3.png"
-dest_files=["res://.godot/imported/House3.png-a839b17603e5bad0130fba41a34e85e9.ctex"]
+source_file="res://assets/sprites/buildings/red_buildings/house3.png"
+dest_files=["res://.godot/imported/house3.png-f64d5aa3b7dff51f54f8c485143dfdb4.ctex"]
 
 [params]
 

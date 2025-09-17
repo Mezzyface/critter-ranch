@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cwuoeq46voh0h"
-path="res://.godot/imported/Sheep_Idle.png-a4b183132eae87c7bce21ae1255ed88e.ctex"
+uid="uid://1ucvwta4xw1h"
+path="res://.godot/imported/sheep_idle.png-14e5a560c946b5b0786956871276b925.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Sheep/Sheep_Idle.png"
-dest_files=["res://.godot/imported/Sheep_Idle.png-a4b183132eae87c7bce21ae1255ed88e.ctex"]
+source_file="res://assets/sprites/creatures/sheep/sheep_idle.png"
+dest_files=["res://.godot/imported/sheep_idle.png-14e5a560c946b5b0786956871276b925.ctex"]
 
 [params]
 

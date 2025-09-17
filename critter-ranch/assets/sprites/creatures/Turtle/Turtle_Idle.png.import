@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://difyrk3pxg5eu"
-path="res://.godot/imported/Turtle_Idle.png-04df79e8e5e0bc5d5214d806e6df2199.ctex"
+uid="uid://b7rcjr7tycr0t"
+path="res://.godot/imported/turtle_idle.png-2ca7af03437b753df8ab004668a75d54.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Turtle/Turtle_Idle.png"
-dest_files=["res://.godot/imported/Turtle_Idle.png-04df79e8e5e0bc5d5214d806e6df2199.ctex"]
+source_file="res://assets/sprites/creatures/turtle/turtle_idle.png"
+dest_files=["res://.godot/imported/turtle_idle.png-2ca7af03437b753df8ab004668a75d54.ctex"]
 
 [params]
 

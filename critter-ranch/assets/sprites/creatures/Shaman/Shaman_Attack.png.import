@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bmanngbuj4i6w"
-path="res://.godot/imported/Shaman_Attack.png-9c359e792eeedce93b3ce27012a33986.ctex"
+uid="uid://bbvm7rot0734e"
+path="res://.godot/imported/shaman_attack.png-106740f2739b549d243c69e35cd32ee8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Shaman/Shaman_Attack.png"
-dest_files=["res://.godot/imported/Shaman_Attack.png-9c359e792eeedce93b3ce27012a33986.ctex"]
+source_file="res://assets/sprites/creatures/shaman/shaman_attack.png"
+dest_files=["res://.godot/imported/shaman_attack.png-106740f2739b549d243c69e35cd32ee8.ctex"]
 
 [params]
 

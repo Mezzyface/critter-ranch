@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://difffw4huuwiy"
-path="res://.godot/imported/Panda_Attack.png-8e2b39b910a7b36284d282118bd37d1a.ctex"
+uid="uid://divti8148n8wx"
+path="res://.godot/imported/panda_attack.png-7bffd0df1371d051c87dcdb7bb3bc9af.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Panda/Panda_Attack.png"
-dest_files=["res://.godot/imported/Panda_Attack.png-8e2b39b910a7b36284d282118bd37d1a.ctex"]
+source_file="res://assets/sprites/creatures/panda/panda_attack.png"
+dest_files=["res://.godot/imported/panda_attack.png-7bffd0df1371d051c87dcdb7bb3bc9af.ctex"]
 
 [params]
 

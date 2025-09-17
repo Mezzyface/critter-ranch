@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://duh54iylyb7r0"
-path="res://.godot/imported/Troll_Windup.png-b94e97bae70e47991b5a6aea20476fe8.ctex"
+uid="uid://crw87nssbukok"
+path="res://.godot/imported/troll_windup.png-46bc995ec725b1c98c4bc8af023a20f0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Troll/Troll_Windup.png"
-dest_files=["res://.godot/imported/Troll_Windup.png-b94e97bae70e47991b5a6aea20476fe8.ctex"]
+source_file="res://assets/sprites/creatures/troll/troll_windup.png"
+dest_files=["res://.godot/imported/troll_windup.png-46bc995ec725b1c98c4bc8af023a20f0.ctex"]
 
 [params]
 

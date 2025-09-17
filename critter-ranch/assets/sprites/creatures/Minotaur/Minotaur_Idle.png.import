@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bcb825huukkps"
-path="res://.godot/imported/Minotaur_Idle.png-fe1af48ec31e63c182b72d36241460db.ctex"
+uid="uid://drbaytdx43dba"
+path="res://.godot/imported/minotaur_idle.png-9d5374839fff74ec718e8aacd396bc8a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Minotaur/Minotaur_Idle.png"
-dest_files=["res://.godot/imported/Minotaur_Idle.png-fe1af48ec31e63c182b72d36241460db.ctex"]
+source_file="res://assets/sprites/creatures/minotaur/minotaur_idle.png"
+dest_files=["res://.godot/imported/minotaur_idle.png-9d5374839fff74ec718e8aacd396bc8a.ctex"]
 
 [params]
 

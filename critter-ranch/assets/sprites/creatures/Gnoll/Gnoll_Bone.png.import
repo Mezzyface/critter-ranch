@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bucemu4pekabc"
-path="res://.godot/imported/Gnoll_Bone.png-aa3bb874a42e08e7a5aef6f874b4c604.ctex"
+uid="uid://ta0bipogdyo7"
+path="res://.godot/imported/gnoll_bone.png-a93b85994cd623aaa6561be80ac01eb4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Gnoll/Gnoll_Bone.png"
-dest_files=["res://.godot/imported/Gnoll_Bone.png-aa3bb874a42e08e7a5aef6f874b4c604.ctex"]
+source_file="res://assets/sprites/creatures/gnoll/gnoll_bone.png"
+dest_files=["res://.godot/imported/gnoll_bone.png-a93b85994cd623aaa6561be80ac01eb4.ctex"]
 
 [params]
 

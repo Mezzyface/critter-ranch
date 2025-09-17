@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://rtmx5untqe6b"
-path="res://.godot/imported/Lizard_Idle.png-f14929f58fa2c8111640a2c2ffbe5f88.ctex"
+uid="uid://b4yqn0ng2uri1"
+path="res://.godot/imported/lizard_idle.png-b599f4d57ca3c1934778c3815848b3ad.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Lizard/Lizard_Idle.png"
-dest_files=["res://.godot/imported/Lizard_Idle.png-f14929f58fa2c8111640a2c2ffbe5f88.ctex"]
+source_file="res://assets/sprites/creatures/lizard/lizard_idle.png"
+dest_files=["res://.godot/imported/lizard_idle.png-b599f4d57ca3c1934778c3815848b3ad.ctex"]
 
 [params]
 

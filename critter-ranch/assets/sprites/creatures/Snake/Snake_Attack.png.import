@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b75b5nx5361hw"
-path="res://.godot/imported/Snake_Attack.png-975bbc2c2b5c4ce8e7d8a1500ca5b77f.ctex"
+uid="uid://c42yra0ho0y0t"
+path="res://.godot/imported/snake_attack.png-5e5c89e4402e7f78c0704ce9e3d5776c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Snake/Snake_Attack.png"
-dest_files=["res://.godot/imported/Snake_Attack.png-975bbc2c2b5c4ce8e7d8a1500ca5b77f.ctex"]
+source_file="res://assets/sprites/creatures/snake/snake_attack.png"
+dest_files=["res://.godot/imported/snake_attack.png-5e5c89e4402e7f78c0704ce9e3d5776c.ctex"]
 
 [params]
 

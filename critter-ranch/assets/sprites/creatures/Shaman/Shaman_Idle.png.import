@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dl740rmwdre36"
-path="res://.godot/imported/Shaman_Idle.png-8a664f6d455d6033312216996d9441ac.ctex"
+uid="uid://ccl385lxerwep"
+path="res://.godot/imported/shaman_idle.png-ce26ed2f0a40b7a46e088aa37bfd6c9b.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Shaman/Shaman_Idle.png"
-dest_files=["res://.godot/imported/Shaman_Idle.png-8a664f6d455d6033312216996d9441ac.ctex"]
+source_file="res://assets/sprites/creatures/shaman/shaman_idle.png"
+dest_files=["res://.godot/imported/shaman_idle.png-ce26ed2f0a40b7a46e088aa37bfd6c9b.ctex"]
 
 [params]
 

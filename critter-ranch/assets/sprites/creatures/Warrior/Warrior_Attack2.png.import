@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://duosmp0tv110p"
-path="res://.godot/imported/Warrior_Attack2.png-3f2320bde12887b50fc61016d57031be.ctex"
+uid="uid://bx2bpn8pooc0g"
+path="res://.godot/imported/warrior_attack2.png-aa8f33f13dcb52819f27dfaa21f9e30d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Warrior/Warrior_Attack2.png"
-dest_files=["res://.godot/imported/Warrior_Attack2.png-3f2320bde12887b50fc61016d57031be.ctex"]
+source_file="res://assets/sprites/creatures/warrior/warrior_attack2.png"
+dest_files=["res://.godot/imported/warrior_attack2.png-aa8f33f13dcb52819f27dfaa21f9e30d.ctex"]
 
 [params]
 

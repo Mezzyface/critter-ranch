@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://xid6t0d47602"
-path="res://.godot/imported/Snake_Run.png-f33ff52a6257990924c292b3accf3101.ctex"
+uid="uid://dq32uyk7alwfd"
+path="res://.godot/imported/snake_run.png-bd854c710d71029fe910458a7c3b0e3f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Snake/Snake_Run.png"
-dest_files=["res://.godot/imported/Snake_Run.png-f33ff52a6257990924c292b3accf3101.ctex"]
+source_file="res://assets/sprites/creatures/snake/snake_run.png"
+dest_files=["res://.godot/imported/snake_run.png-bd854c710d71029fe910458a7c3b0e3f.ctex"]
 
 [params]
 

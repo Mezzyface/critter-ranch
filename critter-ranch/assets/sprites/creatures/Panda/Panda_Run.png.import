@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cgygtrbqimcgs"
-path="res://.godot/imported/Panda_Run.png-0c61834349f4190f66345b98eb8193fd.ctex"
+uid="uid://cocu6yjwrj82h"
+path="res://.godot/imported/panda_run.png-71a37e810656199acc9903c942698f59.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Panda/Panda_Run.png"
-dest_files=["res://.godot/imported/Panda_Run.png-0c61834349f4190f66345b98eb8193fd.ctex"]
+source_file="res://assets/sprites/creatures/panda/panda_run.png"
+dest_files=["res://.godot/imported/panda_run.png-71a37e810656199acc9903c942698f59.ctex"]
 
 [params]
 

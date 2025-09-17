@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dbr6ursjooehg"
-path="res://.godot/imported/little-bear-idle.png-210fab5563b9dc73fad455071171641c.ctex"
+path="res://.godot/imported/little-bear-idle.png-a350c6f869151e2b11c401062b06a097.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Baby Bear/little-bear-idle.png"
-dest_files=["res://.godot/imported/little-bear-idle.png-210fab5563b9dc73fad455071171641c.ctex"]
+source_file="res://assets/sprites/creatures/baby_bear/little-bear-idle.png"
+dest_files=["res://.godot/imported/little-bear-idle.png-a350c6f869151e2b11c401062b06a097.ctex"]
 
 [params]
 

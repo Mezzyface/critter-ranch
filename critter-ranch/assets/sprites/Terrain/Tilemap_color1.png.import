@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bvfkslbopaecj"
-path="res://.godot/imported/Tilemap_color1.png-11b928f5c0e3c1fda099618dc3550d6e.ctex"
+uid="uid://dduxekeqsvc2s"
+path="res://.godot/imported/tilemap_color1.png-04709db1e59500728c279e2722c0765c.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/Terrain/Tilemap_color1.png"
-dest_files=["res://.godot/imported/Tilemap_color1.png-11b928f5c0e3c1fda099618dc3550d6e.ctex"]
+source_file="res://assets/sprites/terrain/tilemap_color1.png"
+dest_files=["res://.godot/imported/tilemap_color1.png-04709db1e59500728c279e2722c0765c.ctex"]
 
 [params]
 

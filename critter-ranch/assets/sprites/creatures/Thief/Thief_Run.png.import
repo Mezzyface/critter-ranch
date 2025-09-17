@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b2vvslse28nr3"
-path="res://.godot/imported/Thief_Run.png-4765296a6ceec1da1c6489971f5ded2f.ctex"
+uid="uid://cyue1ffxu7j2g"
+path="res://.godot/imported/thief_run.png-2b9d603512aacca3cd163379bca7b0e0.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/sprites/creatures/Thief/Thief_Run.png"
-dest_files=["res://.godot/imported/Thief_Run.png-4765296a6ceec1da1c6489971f5ded2f.ctex"]
+source_file="res://assets/sprites/creatures/thief/thief_run.png"
+dest_files=["res://.godot/imported/thief_run.png-2b9d603512aacca3cd163379bca7b0e0.ctex"]
 
 [params]
 
